@@ -54,6 +54,18 @@
   white-space: nowrap;
   box-sizing: content-box;
 }
+/*migrate*/
+
+
+
+ [aria-label][role~="tooltip"]::after {
+  border-radius: unset;
+  padding: 0.2em 0.7em;
+}
+
+
+
+/**/
 
 [aria-label][role~="tooltip"]:hover::before,
 [aria-label][role~="tooltip"]:hover::after,
